@@ -15,7 +15,7 @@ function Signup() {
 
     try {
       // Send a POST request to the backend with the form data
-      const response = await axios.post("https://fullstack-training-c7nk.vercel.app/signup", {
+      const response = await axios.post("https://fullstack-training-1.onrender.com/signup", {
         firstName,
         lastName,
         password,
